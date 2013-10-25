@@ -15,6 +15,6 @@ c. on the simulator page, click the "Add Directory" button,
 
 d. on the game directory look for the "manifest.webapp" and click open.
 
-e. wait until the game start. Enjoy!
+e. wait until the game start. Enjoy!!
 
 
