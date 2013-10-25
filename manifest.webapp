@@ -1,0 +1,14 @@
+{
+  "name": "Game of Luck",
+  "description": "The game that will test your luck in fighting evil gladiators.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png",
+    "60": "/img/icon-60.png"
+  },
+  "developer": {
+    "name": "Ryan Ermita",
+    "url": "https://ryanermita.wordpress.com"
+  },
+  "default_locale": "en"
+}

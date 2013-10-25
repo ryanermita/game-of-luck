@@ -1,0 +1,334 @@
+html{ 
+ 	background: url('../img/gameBg.jpg') no-repeat center center fixed; 
+ 	background-size: cover;
+	}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	}
+
+#header{
+	width: 100%;
+	height: 35px;
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: #555;
+	font-size: 25px;
+	font-weight: 700;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7);
+	}
+
+.backBtn {
+	float:left;
+	text-decoration: none;
+	color:#fff;
+	height:100%;
+	background:#212121;
+	border:none;font-size:20px;
+	}
+
+#startBtn, #aboutBtn{
+	width: 100%;
+	height: 80px;
+	border:none;
+	background-size: 100% 100%;
+	background-image: url('../img/figthBg.jpg');
+	color: #000;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 3px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7);
+	margin-bottom: 25px;
+	}
+
+#startBtn:active, #aboutBtn:active{
+	color: #fff;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	}
+
+#banner{
+	width: 280px;
+	height: 180px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+#aboutSection{
+	width: 90%;
+	background: #000;
+	opacity: 0.8;
+	margin: 50px auto;
+	}
+
+#aboutHeader{
+	margin-top: 10px; 
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 30px 'MisoRegular';
+	padding-left: 5px;
+	margin-top: 5px;
+	}
+
+#aboutInfo{
+	color: #fff;
+	padding: 10px;
+	}
+
+input[type='radio']{
+	display: none;
+	}
+
+#fightBtn, #fightAgainBtn{
+	width: 100%;
+	height: 80px;
+	border:none;
+	background-size: 100% 100%;
+	background-image: url('../img/figthBg.jpg');
+	color: #000;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 3px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7);
+	}
+
+#fightAgainBtn{
+	bottom: 0px;
+	position: absolute;
+	}
+
+#fightBtn:active, #fightAgainBtn:active{
+	color: #fff;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	}
+
+.option{
+	width: 90%;
+	height: 100px;
+	border: 1px solid #323232;
+	margin: 10px auto;
+	background: #000;
+	opacity:0.7;
+	color: #fff;
+	font-size: 30px;
+	}
+
+.optionLabel{
+	text-align: center;
+	margin-right: 80px;
+	}
+
+.optionImages{
+	float:left;
+	height:100px;	
+	}
+
+.optionSelected{
+	opacity: 0.9;
+	text-shadow:0 -1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 0 1px 1px #212121;
+	}
+
+#userPointsLabel, #enemyPointsLabel{
+	color:green;
+	font-weight: bold;
+	float: left; 
+	font-size: 50px;
+	margin-left:10px;
+	margin-top: 20px;
+	}
+
+#enemyPointsLabel{
+	float: right;
+	color: red;
+	margin-right:10px;
+	}
+
+#chooseWarrior{
+	text-align: center;
+	color: #000;
+	letter-spacing: 5px;
+	font: 40px 'MisoRegular';
+	}
+
+#result{
+	width: 90%;
+	height: 280px;
+	background: #000;
+	z-index:2;
+	opacity: 0.8;
+	position: fixed;
+	top: 10%;
+	left: 4%;
+	}
+
+#resultHeader{
+	margin-top: 10px; 
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 50px 'MisoRegular';
+	}
+
+.overlay{
+	opacity: 0.1;
+	background: #212121;
+	z-index:1;
+	padding-right: 100px;
+	position:fixed;  
+	}
+
+#resultMessage{
+	color: #fff;
+	padding: 10px;
+	}
+
+/******************************************************************************************************/
+@media (max-width: 599px) {
+#startBtn, #aboutBtn{
+	height: 60px;
+	font-size: 25px;
+	margin-bottom: 20px; 
+	}
+
+#banner{
+	width: 200px;
+	height: 100px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	}
+
+#aboutHeader{
+	font-size: 25px;
+	}
+
+#fightBtn, #fightAgainBtn{
+	height: 60px;
+	font-size: 30px;
+	}
+
+.option{
+	height: 70px;
+	font-size: 20px;
+	}
+
+.optionLabel{
+	margin-right: 40px;
+	}
+
+.optionImages{
+	height:70px;	
+	}
+
+#chooseWarrior{
+	font: 20px 'MisoRegular';
+	}
+
+#resultHeader{
+	font: 30px 'MisoRegular';
+	}
+
+#userPointsLabel, #enemyPointsLabel{
+	font-size: 30px;
+	}
+}
+/******************************************************************************************************/
+@media (min-width: 600px) and (max-width: 799px) {
+#startBtn, #aboutBtn{
+	height: 70px;
+	font-size: 30px;
+	margin-bottom: 25px; 
+	}
+
+#banner{
+	width: 250px;
+	height: 140px;
+	margin-top: 30px;
+	}
+
+#aboutHeader{
+	font-size: 28px;
+	}
+
+#fightBtn, #fightAgainBtn{
+	height: 65px;
+	font-size: 35px;
+	}
+
+.option{
+	height: 85px;
+	font-size: 20px;
+	}
+
+.optionLabel{
+	margin-right: 60px;
+	}
+
+.optionImages{
+	height:85px;	
+	}
+
+#chooseWarrior{
+	font: 25px 'MisoRegular';
+	}
+
+#resultHeader{
+	font: 30px 'MisoRegular';
+	}
+
+#userPointsLabel, #enemyPointsLabel{
+	font-size: 35px;
+	}
+}
+/******************************************************************************************************/
+@media (min-width: 800px) and (max-width: 1000px) {
+#startBtn, #aboutBtn{
+	height: 80px;
+	font-size: 35px;
+	margin-bottom: 25px;
+	}
+	
+#banner{
+	width: 280px;
+	height: 180px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	}
+
+#fightBtn, #fightAgainBtn{
+	height: 70px;
+	font-size: 35px;
+	}
+
+.option{
+	height: 90px;
+	font-size: 25px;
+	}
+
+.optionLabel{
+	margin-right: 60px;
+	}
+
+.optionImages{
+	height:90px;	
+	}
+
+#chooseWarrior{
+	font: 28px 'MisoRegular';
+	}
+
+#resultHeader{
+	font: 35px 'MisoRegular';
+	}
+
+#userPointsLabel, #enemyPointsLabel{
+	font-size: 35px;
+	}
+}

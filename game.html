@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game of Luck</title>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src='js/game.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>	
+<div class='wrapper'>
+	<div id='header'>
+	<a href="index.html">
+		<button class='backBtn'><</button>
+	</a>
+	Game of Luck
+	</div>
+		<p>
+			<label id='userPointsLabel'>0</label>
+			<label id='enemyPointsLabel'>0</label>
+		</p>
+	<br>
+	<h2 id='chooseWarrior'>Select Fighter</h2>
+	<input type='radio' id='rd1' class='optionRadio' name='userpick' value='Roccian'>
+		<label for='rd1'>
+			<div class='option'>
+			<img src="img/rock.png" class='optionImages'>
+			<h3 class='optionLabel'>Roccian</h3>
+			</div>
+		</label>
+
+	<input type='radio' id='rd2' class='optionRadio' name='userpick' value='Palma'>
+	<label for='rd2'>
+			<div class='option'>
+			<img src="img/paper.png" class='optionImages'>
+			<h3 class='optionLabel'>Palma</h3>
+			</div>
+		</label>
+
+	<input type='radio' id='rd3' class='optionRadio' name='userpick' value='Esclicer'>
+	<label for='rd3'>
+			<div class='option'>
+			<img src="img/scissors.png" class='optionImages'>
+			<h3 class='optionLabel'>Esclicer</h3>
+			</div>
+		</label>
+	<input  type='submit' id='fightBtn' value='Fight'>
+</div>
+
+<section id='result' hidden>
+		<header id='resultHeader'><h1>result</h1></header>
+		<p id='resultMessage'>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+		</p>
+	
+		<footer>
+			<button id='fightAgainBtn'>Fight Again</button>
+		</footer>
+	</section>
+</body>
+</html>
